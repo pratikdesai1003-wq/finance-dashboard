@@ -1,0 +1,101 @@
+@media (max-width: 991px){
+  .topbar{
+    flex-direction: column;
+  }
+
+  .topbar-actions{
+    width: 100%;
+  }
+
+  .topbar-actions > *{
+    flex: 1 1 auto;
+  }
+
+  .filters{
+    width: 100%;
+  }
+
+  .filters > *{
+    min-width: 100%;
+  }
+
+  .chart-wrap{
+    height: 280px;
+  }
+
+  .modal-body-custom{
+    padding: 18px;
+  }
+}
+
+@media (max-width: 767px){
+  .app-shell{
+    padding: 14px;
+  }
+
+  .page-title{
+    font-size: 1.35rem;
+  }
+
+  .dashboard-card,
+  .summary-card{
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .summary-value{
+    font-size: 1.35rem;
+  }
+
+  .card-head{
+    flex-direction: column;
+  }
+
+  .actions-wrap{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .chart-wrap{
+    height: 250px;
+  }
+
+  .modal-hero{
+    padding: 18px;
+  }
+
+  .modal-body-custom,
+  .modal-footer-custom{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+@media (max-width: 575px){
+  .brand-chip{
+    font-size: 0.78rem;
+  }
+
+  .page-subtitle{
+    font-size: 0.92rem;
+  }
+
+  .filters > *{
+    min-width: 100%;
+  }
+
+  .chart-wrap{
+    height: 230px;
+  }
+
+  .transaction-table thead th,
+  .transaction-table tbody td{
+    white-space: nowrap;
+  }
+
+  .modal-content .form-control,
+  .modal-content .form-select{
+    min-height: 44px;
+    font-size: 0.95rem;
+  }
+}
