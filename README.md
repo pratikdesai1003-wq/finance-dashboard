@@ -19,7 +19,7 @@ Features
 - Viewer and Admin role switch
 - Add, edit, and delete transaction functionality
 - Dark mode and light mode
-- Responsive design for mobile, tablet, and desktop
+  
 
 Tech Stack
 
@@ -55,13 +55,6 @@ How It Works
 - The table updates dynamically based on search, filter, and sorting.
 - Admin users can add, edit, and delete transactions.
 - Theme switching is handled using CSS variables and a data-theme attribute.
-
-Responsive Design
-
-The dashboard is designed to work properly on:
-- Mobile
-- Tablet
-- Desktop
 
 
 Deployment
